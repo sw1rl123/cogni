@@ -57,7 +57,7 @@
 
 
 .loginform {
-    width: 304px;
+    width: 400px;
     padding: 24px 32px;
     background: #16171B;
     display: flex;
@@ -81,6 +81,7 @@
     padding: 20px;
     margin-bottom: 23px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .loginform__button {
@@ -104,7 +105,7 @@
     font-family: Montserrat;
     font-weight: bold;
     margin-bottom: 16px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .info {
@@ -131,4 +132,32 @@
     color: #D8E0F4;
     font-family: Montserrat;
     font-size: 15px;
+}
+
+.loginform__radio {
+    margin-right: 8px;
+}
+
+.loginform__label {
+    display: flex;
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    line-height: 13px;
+    margin-bottom: 14px;
+}
+
+.loginform__agree {
+    color: #597FE0;
+}
+
+.loginform__desc {
+    color: #D8E0F4;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.color-green {
+    color: #59E0C0;
 }
