@@ -74,6 +74,7 @@
     font-size: 21px;
     color: white;
     margin-bottom: 23px;
+    text-align: center;
 }
 
 .loginform__input {
@@ -93,7 +94,7 @@
     font-size: 19px;
     font-family: Montserrat;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .loginform__button:hover {
@@ -124,6 +125,7 @@
     font-family: Catamaran;
     color: white;
     font-size: 23px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -160,4 +162,27 @@
 
 .color-green {
     color: #59E0C0;
+}
+
+.loginform__button-other {
+    padding: 18px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(90deg, rgba(99,255,218,1) 0%, rgba(140,75,205,1) 100%);
+    font-size: 19px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.loginform__text {
+    font-family: Evolventa;
+    font-size: 20px;
+    margin-bottom: 23px;
+    color: white;
+}
+
+.loginform__button-other:hover {
+    cursor: pointer;
 }
